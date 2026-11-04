@@ -146,7 +146,7 @@ main ul.bul li,main ol.bul li{margin-bottom:8px}
 .locmap{margin:18px 0 4px}
 .locmap iframe{display:block;width:100%;height:320px;border:0;border-radius:14px}
 .sitefoot{background:var(--navy-d);color:#C3CDD8;padding:52px 0 40px;font-size:15px}
-.sitefoot .wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}
+.sitefoot .wrap{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr 1fr;gap:32px}
 .foot-h{color:#fff;font-size:18px;margin-bottom:12px}
 .sitefoot a{color:#C3CDD8;text-decoration:none;display:block;margin-bottom:8px}
 .sitefoot a:hover{color:#fff;text-decoration:underline}
@@ -231,3 +231,9 @@ body{padding-bottom:62px}
 .hub-list .thumb img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:10px}
 @media(max-width:640px){.hub-list li{grid-template-columns:minmax(0,1fr);gap:12px}}
 .hubtxt{min-width:0}
+.findgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin-top:18px}
+.findcol{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px}
+.findcol h3{font-size:19px;margin-bottom:10px;text-transform:none;font-family:'Barlow',Arial,sans-serif;letter-spacing:normal}
+.findcol ul{list-style:none}
+.findcol li{margin-bottom:8px;font-weight:600}
+@media(max-width:900px){.findgrid{grid-template-columns:minmax(0,1fr)}}
